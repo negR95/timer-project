@@ -8,13 +8,15 @@ body {
 }
 
 
-
 .a {
   outline: 1px solid black;
 }
 
-#container {
-
+.container {
+display: flex;
+justify-items: center;
+flex-direction: column;
+height: 100vh;
 }
 
 
